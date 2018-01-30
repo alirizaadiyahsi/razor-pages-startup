@@ -1,1 +1,0 @@
-D:\GitHub\razor-pages-startup\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
