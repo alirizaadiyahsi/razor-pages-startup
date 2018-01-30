@@ -1,0 +1,11 @@
+services:
+  baseprojecttemplate.web:
+    build:
+      context: C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate
+      dockerfile: BaseProjectTemplate.Web.RazorPages/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: baseprojecttemplate.web
+    ports:
+    - 80/tcp
+version: '3.0'

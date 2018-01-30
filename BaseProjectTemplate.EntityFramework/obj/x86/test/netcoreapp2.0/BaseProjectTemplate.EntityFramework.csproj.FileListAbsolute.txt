@@ -1,0 +1,11 @@
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\bin\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.deps.json
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\bin\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\bin\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\bin\x86\test\netcoreapp2.0\BaseProjectTemplate.Core.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\bin\x86\test\netcoreapp2.0\BaseProjectTemplate.Core.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.csprojResolveAssemblyReference.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.AssemblyInfo.cs
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\x86\test\netcoreapp2.0\BaseProjectTemplate.EntityFramework.pdb

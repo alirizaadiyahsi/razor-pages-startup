@@ -1,0 +1,8 @@
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate.Application\bin\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Application.deps.json
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate.Application\bin\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Application.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate.Application\bin\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Application.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate.Application\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Application.csproj.CoreCompileInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate.Application\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Application.AssemblyInfoInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate.Application\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Application.AssemblyInfo.cs
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate.Application\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Application.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate.Application\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Application.pdb

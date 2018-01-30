@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  baseprojecttemplate.web:
+    image: baseprojecttemplate.web
+    build:
+      context: .
+      dockerfile: BaseProjectTemplate.Web.RazorPages/Dockerfile

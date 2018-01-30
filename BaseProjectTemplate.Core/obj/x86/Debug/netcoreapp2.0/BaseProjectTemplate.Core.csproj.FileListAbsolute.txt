@@ -1,0 +1,9 @@
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\bin\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.deps.json
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\bin\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\bin\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.csproj.CoreCompileInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.AssemblyInfoInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.AssemblyInfo.cs
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Core\obj\x86\Debug\netcoreapp2.0\BaseProjectTemplate.Core.csprojResolveAssemblyReference.cache
