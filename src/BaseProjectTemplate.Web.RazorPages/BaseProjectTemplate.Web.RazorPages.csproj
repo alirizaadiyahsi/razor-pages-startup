@@ -9,6 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bundle.config.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bundle.config.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Pages\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
