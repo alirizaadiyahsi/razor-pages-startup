@@ -1,37 +1,41 @@
 ﻿//Alternative
 
 module.exports = {
-  libsFolder: './wwwroot/lib',
+  libsFolder: "./wwwroot/lib",
   mappings: {
-    "node_modules/bootstrap/dist/css": "bootstrap/dist/css"
+    "node_modules/bootstrap/dist/css/bootstrap.css": "bootstrap/dist/css",
+    "node_modules/bootstrap/dist/js/bootstrap.js": "bootstrap/dist/js",
+    "node_modules/jquery/dist/jquery.js": "jquery/dist"
   },
   bundles: [
+
+      // common resources
       {
-        outputFileName: 'wwwroot/view-resources/Areas/AppAreaName/Views/_Bundles/common-styles.css',
-        inputFiles: [
-            'wwwroot/Common/Styles/**/*.css',
-            'wwwroot/fonts/**/*.css',
-            '!wwwroot/Common/Styles/**/*.min.css'
-        ]
+          "outputFileName": "wwwroot/css/site.min.css",
+          "inputFiles": [
+              "wwwroot/css/site.css"
+          ]
       },
       {
-        outputFileName: 'wwwroot/view-resources/Areas/AppAreaName/Views/_Bundles/common-scripts.js',
-        inputFiles: [
-            "wwwroot/Common/Scripts/**/*.js",
-            "!wwwroot/Common/Scripts/**/*min.js"
-        ]
+          "outputFileName": "wwwroot/js/site.min.js",
+          "inputFiles": [
+              "wwwroot/js/site.js"
+          ]
+      },
+
+      // pages resources
+      {
+          "outputFileName": "wwwroot/pages/_bundles/layout.min.css",
+          "inputFiles": [
+              "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+          ]
       },
       {
-        outputFileName: "wwwroot/js/views/home/index.min.js",
-        inputFiles: [
-            "wwwroot/js/views/home/index.js"
-        ]
-      },
-      {
-        outputFileName: "wwwroot/view-resources/Areas/AppAreaName/Views/AuditLogs/Index.min.css",
-        inputFiles: [
-            "wwwroot/view-resources/Areas/AppAreaName/Views/AuditLogs/Index.css"
-        ]
+          "outputFileName": "wwwroot/pages/_bundles/layout.min.js",
+          "inputFiles": [
+              "wwwroot/lib/jquery/dist/jquery.js",
+              "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+          ]
       }
   ]
 };
