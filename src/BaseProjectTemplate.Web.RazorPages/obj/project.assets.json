@@ -5650,7 +5650,7 @@
       ]
     },
     "Microsoft.AspNetCore.Mvc/2.0.2": {
-      "sha512": "SMbHiQZ/nYoaR+kR74dyot5wh4nuian+l9G7Q+zXkFJpI69ALr96Fc3ie1n/Zr1WTBVgB8cwK2ce8VKJxw2RWw==",
+      "sha512": "RAJhSPy7WNjFeiO/p3uXsBZ9YJmNB2flABBxKEU3wwr9+Ce3dVw0lm1pBx7yPwEbvaRx6UV5Fz9SBUJ3W+QBsg==",
       "type": "package",
       "path": "microsoft.aspnetcore.mvc/2.0.2",
       "files": [
@@ -7703,7 +7703,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.0.2": {
-      "sha512": "jhtIx2Qj9muaoLnYSkry4imTHCLvQ2wQTXVWf+l7YaneFkowcqAzdWnqXwYnART4UhWxlXbQtCxrGcyJgaL4hg==",
+      "sha512": "zzVnXAsRsyZjnvruelMdn0yJd9BEfDOCDkuvoN9tnsraE4BoopTjZmO7wi8zkZO8zlOWQpHxAvt0AQY9wtah5w==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.design/2.0.2",
       "files": [
@@ -12773,7 +12773,7 @@
       ]
     },
     "System.ValueTuple/4.4.0": {
-      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "sha512": "N+7CQp6Ok9Ww2OXOBJqgNpTVgN0r3leN4+D1Crooaw7fhSsSeJ0OsLwJmPgO8EN7lebvhYaNYNPuwJSeubSNAQ==",
       "type": "package",
       "path": "system.valuetuple/4.4.0",
       "files": [
