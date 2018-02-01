@@ -15,20 +15,20 @@ C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseP
 C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.pdb
 C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.dll
 C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.pdb
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.csprojResolveAssemblyReference.cache
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.csproj.CoreCompileInputs.cache
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.AssemblyInfoInputs.cache
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.AssemblyInfo.cs
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.dll
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.pdb
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.deps.json
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.runtimeconfig.json
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.runtimeconfig.dev.json
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.dll
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.pdb
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Application.dll
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Core.dll
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.dll
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Application.pdb
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Core.pdb
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.pdb
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.runtimeconfig.json
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.runtimeconfig.dev.json
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.dll
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.pdb
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.csprojResolveAssemblyReference.cache
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.csproj.CoreCompileInputs.cache
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.AssemblyInfoInputs.cache
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.AssemblyInfo.cs
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.dll
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Web.RazorPages\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Web.RazorPages.pdb
