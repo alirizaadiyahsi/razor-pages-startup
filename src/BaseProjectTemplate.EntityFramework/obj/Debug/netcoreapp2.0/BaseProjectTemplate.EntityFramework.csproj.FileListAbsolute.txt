@@ -9,14 +9,3 @@ C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseP
 C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.AssemblyInfo.cs
 C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.dll
 C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.pdb
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\bin\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.deps.json
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\bin\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.dll
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\bin\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.pdb
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Core.dll
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Core.pdb
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.csprojResolveAssemblyReference.cache
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.csproj.CoreCompileInputs.cache
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.AssemblyInfoInputs.cache
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.AssemblyInfo.cs
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.dll
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.EntityFramework\obj\Debug\netcoreapp2.0\BaseProjectTemplate.EntityFramework.pdb
