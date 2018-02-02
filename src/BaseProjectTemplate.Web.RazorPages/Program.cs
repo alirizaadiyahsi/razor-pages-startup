@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace BaseProjectTemplate.Web
+namespace BaseProjectTemplate.Web.RazorPages
 {
     public class Program
     {

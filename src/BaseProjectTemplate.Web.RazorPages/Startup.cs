@@ -1,4 +1,5 @@
-﻿using BaseProjectTemplate.Core.Authorization;
+﻿using BaseProjectTemplate.Application;
+using BaseProjectTemplate.Core.Authorization;
 using BaseProjectTemplate.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -7,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BaseProjectTemplate.Web
+namespace BaseProjectTemplate.Web.RazorPages
 {
     public class Startup
     {
@@ -20,6 +21,7 @@ namespace BaseProjectTemplate.Web
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddBaseProjectTemplateApplication();
             services.AddBaseProjectTemplateEntityFramework();
 
             services.AddDbContext<BaseProjectTemplateDbContext>(options =>
@@ -29,15 +31,21 @@ namespace BaseProjectTemplate.Web
                 .AddEntityFrameworkStores<BaseProjectTemplateDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc();
+            services.AddMvc()
+                .AddRazorPagesOptions(options =>
+                {
+                    options.Conventions.AuthorizeFolder("/Account/Manage");
+                    options.Conventions.AuthorizePage("/Account/Logout");
+                });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
+                app.UseDeveloperExceptionPage();
+                app.UseDatabaseErrorPage();
             }
             else
             {
@@ -45,6 +53,8 @@ namespace BaseProjectTemplate.Web
             }
 
             app.UseStaticFiles();
+
+            app.UseAuthentication();
 
             app.UseMvc();
         }

@@ -22,6 +22,18 @@ module.exports = {
               "wwwroot/js/site.js"
           ]
       },
+      {
+          "outputFileName": "wwwroot/css/admin/admin-site.min.css",
+          "inputFiles": [
+              "wwwroot/css/admin/admin-site.css"
+          ]
+      },
+      {
+          "outputFileName": "wwwroot/js/admin/admin-site.min.js",
+          "inputFiles": [
+              "wwwroot/js/admin/admin-site.js"
+          ]
+      },
 
       // pages resources
       {

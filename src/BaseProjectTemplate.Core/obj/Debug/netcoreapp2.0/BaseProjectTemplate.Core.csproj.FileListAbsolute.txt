@@ -15,3 +15,4 @@ D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Core\obj\Debug\netcoreapp2
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Core\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Core.AssemblyInfo.cs
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Core\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Core.dll
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Core\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Core.pdb
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Core\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Core.csprojResolveAssemblyReference.cache
