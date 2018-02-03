@@ -6,7 +6,7 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages
     {
         public void OnGet()
         {
-
+            
         }
     }
 }

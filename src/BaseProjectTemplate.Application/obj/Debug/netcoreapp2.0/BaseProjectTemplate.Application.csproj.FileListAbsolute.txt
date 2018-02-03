@@ -19,9 +19,9 @@ C:\Users\aliriza\Documents\Visual Studio 2017\Projects\BaseProjectTemplate\BaseP
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Application.deps.json
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Application.dll
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\bin\Debug\netcoreapp2.0\BaseProjectTemplate.Application.pdb
+D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Application.csprojResolveAssemblyReference.cache
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Application.csproj.CoreCompileInputs.cache
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Application.AssemblyInfoInputs.cache
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Application.AssemblyInfo.cs
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Application.dll
 D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Application.pdb
-D:\GitHub\razor-pages-startup\src\BaseProjectTemplate.Application\obj\Debug\netcoreapp2.0\BaseProjectTemplate.Application.csprojResolveAssemblyReference.cache

@@ -1,12 +1,14 @@
 ﻿using BaseProjectTemplate.Application;
 using BaseProjectTemplate.Core.Authorization;
 using BaseProjectTemplate.EntityFramework;
+using BaseProjectTemplate.Web.Core.CustomMiddleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace BaseProjectTemplate.Web.RazorPages
 {
@@ -39,7 +41,7 @@ namespace BaseProjectTemplate.Web.RazorPages
                 });
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -57,6 +59,8 @@ namespace BaseProjectTemplate.Web.RazorPages
             app.UseAuthentication();
 
             app.UseMvc();
+
+            app.UseMiddleware<BaseProjectTemplateExceptionHandler>(loggerFactory);
         }
     }
 }
