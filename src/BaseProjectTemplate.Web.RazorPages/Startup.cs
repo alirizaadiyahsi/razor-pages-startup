@@ -34,7 +34,7 @@ namespace BaseProjectTemplate.Web.RazorPages
             services.AddMvc()
                 .AddRazorPagesOptions(options =>
                 {
-                    options.Conventions.AuthorizeFolder("/Account/Manage");
+                    options.Conventions.AuthorizeFolder("/Admin");
                     options.Conventions.AuthorizePage("/Account/Logout");
                 });
         }
