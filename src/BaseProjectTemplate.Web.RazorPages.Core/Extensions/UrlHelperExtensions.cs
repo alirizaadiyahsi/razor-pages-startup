@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace BaseProjectTemplate.Web.RazorPages.Extensions
+namespace BaseProjectTemplate.Web.Core.Extensions
 {
     public static class UrlHelperExtensions
     {
