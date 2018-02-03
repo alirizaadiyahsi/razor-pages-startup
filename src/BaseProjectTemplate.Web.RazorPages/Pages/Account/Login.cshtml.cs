@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using BaseProjectTemplate.Core.Authorization;
+using BaseProjectTemplate.Web.Core.Extensions;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using BaseProjectTemplate.Web.RazorPages.Extensions;
 
 namespace BaseProjectTemplate.Web.RazorPages.Pages.Account
 {
