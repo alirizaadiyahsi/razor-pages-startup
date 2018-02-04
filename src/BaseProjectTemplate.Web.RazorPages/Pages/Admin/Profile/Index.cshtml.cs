@@ -4,13 +4,14 @@ using System.Threading.Tasks;
 using BaseProjectTemplate.Application.Authorization;
 using BaseProjectTemplate.Core.Authorization;
 using BaseProjectTemplate.Web.Core.Extensions;
+using BaseProjectTemplate.Web.Core.Models;
+using BaseProjectTemplate.Web.Core.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
+namespace BaseProjectTemplate.Web.RazorPages.Pages.Admin.Profile
 {
-    public class IndexModel : PageModel
+    public class IndexModel : BaseAdminPageModel
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IEmailService _emailService;
@@ -26,9 +27,6 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
         public string Username { get; set; }
 
         public bool IsEmailConfirmed { get; set; }
-
-        [TempData]
-        public string StatusMessage { get; set; }
 
         [BindProperty]
         public InputModel Input { get; set; }
@@ -96,9 +94,15 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
                 }
             }
 
-            StatusMessage = "Your profile has been updated";
+            SetViewMessage(new ViewMessage
+            {
+                Message = "Your profile has been updated",
+                ViewMessageType = ViewMessageTypes.Success
+            });
+
             return RedirectToPage();
         }
+
         public async Task<IActionResult> OnPostSendVerificationEmailAsync()
         {
             if (!ModelState.IsValid)
@@ -116,7 +120,12 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
             var callbackUrl = Url.EmailConfirmationLink(user.Id.ToString(), code, Request.Scheme);
             await _emailService.SendEmailConfirmationAsync(user.Email, callbackUrl);
 
-            StatusMessage = "Verification email sent. Please check your email.";
+            SetViewMessage(new ViewMessage
+            {
+                Message = "Verification email sent. Please check your email.",
+                ViewMessageType = ViewMessageTypes.Success
+            });
+
             return RedirectToPage();
         }
     }

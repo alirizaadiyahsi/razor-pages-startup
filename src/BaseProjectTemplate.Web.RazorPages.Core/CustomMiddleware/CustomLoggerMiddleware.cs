@@ -5,9 +5,6 @@ using Microsoft.Extensions.Logging;
 
 namespace BaseProjectTemplate.Web.Core.CustomMiddleware
 {
-    /// <summary>
-    /// A custom Exception Handler Middleware.
-    /// </summary>
     public sealed class BaseProjectTemplateExceptionHandler
     {
         private readonly RequestDelegate _next;

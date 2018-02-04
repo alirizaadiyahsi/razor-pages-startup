@@ -2,13 +2,14 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using BaseProjectTemplate.Core.Authorization;
+using BaseProjectTemplate.Web.Core.Models;
+using BaseProjectTemplate.Web.Core.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
+namespace BaseProjectTemplate.Web.RazorPages.Pages.Admin.Profile
 {
-    public class SetPasswordModel : PageModel
+    public class SetPasswordModel : BaseAdminPageModel
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
@@ -23,9 +24,6 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
 
         [BindProperty]
         public InputModel Input { get; set; }
-
-        [TempData]
-        public string StatusMessage { get; set; }
 
         public class InputModel
         {
@@ -83,7 +81,12 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
             }
 
             await _signInManager.SignInAsync(user, isPersistent: false);
-            StatusMessage = "Your password has been set.";
+
+            SetViewMessage(new ViewMessage
+            {
+                Message = "Your password has been set.",
+                ViewMessageType = ViewMessageTypes.Success
+            });
 
             return RedirectToPage();
         }

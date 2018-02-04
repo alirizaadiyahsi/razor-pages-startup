@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BaseProjectTemplate.Core.Authorization;
+using BaseProjectTemplate.Web.Core.Models;
+using BaseProjectTemplate.Web.Core.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
+namespace BaseProjectTemplate.Web.RazorPages.Pages.Admin.Profile
 {
-    public class ExternalLoginsModel : PageModel
+    public class ExternalLoginsModel : BaseAdminPageModel
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
@@ -28,9 +29,6 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
         public IList<AuthenticationScheme> OtherLogins { get; set; }
 
         public bool ShowRemoveButton { get; set; }
-
-        [TempData]
-        public string StatusMessage { get; set; }
 
         public async Task<IActionResult> OnGetAsync()
         {
@@ -63,7 +61,13 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
             }
 
             await _signInManager.SignInAsync(user, isPersistent: false);
-            StatusMessage = "The external login was removed.";
+
+            SetViewMessage(new ViewMessage
+            {
+                Message = "The external login was removed.",
+                ViewMessageType = ViewMessageTypes.Success
+            });
+
             return RedirectToPage();
         }
 
@@ -101,7 +105,12 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
             // Clear the existing external cookie to ensure a clean login process
             await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
 
-            StatusMessage = "The external login was added.";
+            SetViewMessage(new ViewMessage
+            {
+                Message = "The external login was added.",
+                ViewMessageType = ViewMessageTypes.Success
+            });
+
             return RedirectToPage();
         }
     }

@@ -2,14 +2,15 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using BaseProjectTemplate.Core.Authorization;
+using BaseProjectTemplate.Web.Core.Models;
+using BaseProjectTemplate.Web.Core.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
+namespace BaseProjectTemplate.Web.RazorPages.Pages.Admin.Profile
 {
-    public class ChangePasswordModel : PageModel
+    public class ChangePasswordModel : BaseAdminPageModel
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
@@ -27,9 +28,6 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
 
         [BindProperty]
         public InputModel Input { get; set; }
-
-        [TempData]
-        public string StatusMessage { get; set; }
 
         public class InputModel
         {
@@ -92,7 +90,12 @@ namespace BaseProjectTemplate.Web.RazorPages.Pages.Account.Manage
 
             await _signInManager.SignInAsync(user, isPersistent: false);
             _logger.LogInformation("User changed their password successfully.");
-            StatusMessage = "Your password has been changed.";
+
+            SetViewMessage(new ViewMessage
+            {
+                Message = "Your password has been changed.",
+                ViewMessageType = ViewMessageTypes.Success
+            });
 
             return RedirectToPage();
         }

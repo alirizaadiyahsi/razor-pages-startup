@@ -1,10 +1,28 @@
-﻿@model string
-
-@if (!String.IsNullOrEmpty(Model))
+﻿@if (TempData["StatusMessage"] != null)
 {
-    var statusMessageClass = Model.StartsWith("Error") ? "danger" : "success";
-    <div class="alert alert-@statusMessageClass alert-dismissible" role="alert">
+    var viewMessage = (ViewMessage)TempData["StatusMessage"];
+    string viewMessageClass;
+
+    switch (viewMessage.ViewMessageType)
+    {
+        case ViewMessageTypes.Info:
+            viewMessageClass = "info";
+            break;
+        case ViewMessageTypes.Success:
+            viewMessageClass = "success";
+            break;
+        case ViewMessageTypes.Warning:
+            viewMessageClass = "warning";
+            break;
+        case ViewMessageTypes.Error:
+            viewMessageClass = "danger";
+            break;
+        default:
+            throw new ArgumentOutOfRangeException();
+    }
+
+    <div class="alert alert-@viewMessageClass alert-dismissible" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        @Model
+        @viewMessage.Message
     </div>
 }

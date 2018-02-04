@@ -77,14 +77,15 @@
             </nav>
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                @await Html.PartialAsync("_StatusMessage")
                 @RenderBody()
             </main>
         </div>
     </div>
 
     @*<footer class="">
-        <p>&copy; 2017 - BaseProjectTemplate.Web.RazorPages</p>
-    </footer>*@
+            <p>&copy; 2017 - BaseProjectTemplate.Web.RazorPages</p>
+        </footer>*@
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
@@ -98,7 +99,7 @@
                 crossorigin="anonymous"
                 integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
         </script>
-        <script src="~/js/admin/admin-site.js"  asp-append-version="true"></script>
+        <script src="~/js/admin/admin-site.js" asp-append-version="true"></script>
     </environment>
 
     @RenderSection("Scripts", required: false)
