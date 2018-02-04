@@ -1,6 +1,7 @@
-﻿@if (TempData["StatusMessage"] != null)
+﻿@using BaseProjectTemplate.Web.Core.Extensions
+@if (TempData["StatusMessage"] != null)
 {
-    var viewMessage = (ViewMessage)TempData["StatusMessage"];
+    var viewMessage = TempData.Get<ViewMessage>("StatusMessage");
     string viewMessageClass;
 
     switch (viewMessage.ViewMessageType)

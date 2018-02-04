@@ -1,4 +1,5 @@
-﻿using BaseProjectTemplate.Web.Core.Models;
+﻿using BaseProjectTemplate.Web.Core.Extensions;
+using BaseProjectTemplate.Web.Core.Models;
 
 namespace BaseProjectTemplate.Web.Core.ViewModels
 {
@@ -6,7 +7,7 @@ namespace BaseProjectTemplate.Web.Core.ViewModels
     {
         public void SetViewMessage(ViewMessage viewMessage)
         {
-            TempData["StatusMessage"] = viewMessage;
+            TempData.Set("StatusMessage", viewMessage);
         }
     }
 }
