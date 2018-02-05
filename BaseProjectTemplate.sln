@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseProjectTemplate.EntityF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseProjectTemplate.Web.RazorPages", "src\BaseProjectTemplate.Web.RazorPages\BaseProjectTemplate.Web.RazorPages.csproj", "{26B7E21D-EBD4-4356-880E-71D11FDE52FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseProjectTemplate.Web.Core", "src\BaseProjectTemplate.Web.RazorPages.Core\BaseProjectTemplate.Web.Core.csproj", "{7380890C-E146-4A07-AE1D-1AF2D8D53769}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseProjectTemplate.Web.Core", "src\BaseProjectTemplate.Web.Core\BaseProjectTemplate.Web.Core.csproj", "{7380890C-E146-4A07-AE1D-1AF2D8D53769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

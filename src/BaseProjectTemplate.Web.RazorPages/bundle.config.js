@@ -5,7 +5,9 @@ module.exports = {
   mappings: {
     "node_modules/bootstrap/dist/css/bootstrap.css": "bootstrap/dist/css",
     "node_modules/bootstrap/dist/js/bootstrap.js": "bootstrap/dist/js",
-    "node_modules/jquery/dist/jquery.js": "jquery/dist"
+    "node_modules/jquery/dist/jquery.js": "jquery/dist",
+    "node_modules/jquery-validation/dist/jquery.validate.js": "jquery-validation/dist",
+    "node_modules/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js": "jquery-validation-unobtrusive"
   },
   bundles: [
 
@@ -47,6 +49,13 @@ module.exports = {
           "inputFiles": [
               "wwwroot/lib/jquery/dist/jquery.js",
               "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+          ]
+      },
+      {
+          "outputFileName": "wwwroot/pages/_bundles/validation-scripts.min.js",
+          "inputFiles": [
+              "wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+              "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
           ]
       }
   ]

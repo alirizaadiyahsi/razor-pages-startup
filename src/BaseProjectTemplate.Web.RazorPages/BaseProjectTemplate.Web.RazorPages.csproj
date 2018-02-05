@@ -25,6 +25,7 @@
     <ProjectReference Include="..\BaseProjectTemplate.Application\BaseProjectTemplate.Application.csproj" />
     <ProjectReference Include="..\BaseProjectTemplate.Core\BaseProjectTemplate.Core.csproj" />
     <ProjectReference Include="..\BaseProjectTemplate.EntityFramework\BaseProjectTemplate.EntityFramework.csproj" />
+    <ProjectReference Include="..\BaseProjectTemplate.Web.Core\BaseProjectTemplate.Web.Core.csproj" />
     <ProjectReference Include="..\BaseProjectTemplate.Web.RazorPages.Core\BaseProjectTemplate.Web.Core.csproj" />
   </ItemGroup>
 

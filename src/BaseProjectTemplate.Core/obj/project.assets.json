@@ -3740,9 +3740,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "D:\\GitHub\\razor-pages-startup\\src\\BaseProjectTemplate.Core\\BaseProjectTemplate.Core.csproj",
       "projectName": "BaseProjectTemplate.Core",

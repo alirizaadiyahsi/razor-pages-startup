@@ -89,7 +89,7 @@ gulp.task("min:css", function () {
             if (!outputFileName.includes(".min.")) {
                 minifiedCssOutputFile = outputFileName.substr(0, outputFileName.lastIndexOf(".")) + ".min.css";
             }
-
+            console.log(minifiedCssOutputFile);
             return gulp.src(bundle.inputFiles)
                 .pipe(cleanCSS({
                     rebaseTo: outputFolder,
