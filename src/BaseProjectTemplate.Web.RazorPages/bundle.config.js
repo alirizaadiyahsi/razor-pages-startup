@@ -8,7 +8,8 @@ module.exports = {
     "node_modules/jquery/dist/jquery.js": "jquery/dist",
     "node_modules/jquery-validation/dist/jquery.validate.js": "jquery-validation/dist",
     "node_modules/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js": "jquery-validation-unobtrusive",
-    "node_modules/font-awesome/css/font-awesome.css":"font-awesome/css"
+    "node_modules/font-awesome/css/font-awesome.css": "font-awesome/css",
+    "node_modules/font-awesome/fonts": "font-awesome/fonts"
   },
   bundles: [
 
