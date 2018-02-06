@@ -39,7 +39,7 @@ gulp.task("min:js", function () {
                 return null;
             }
 
-            var minifiedJsOutputFile = "";
+            var minifiedJsOutputFile = outputFileName;
             if (!outputFileName.includes(".min.")) {
                 minifiedJsOutputFile = outputFileName.substr(0, outputFileName.lastIndexOf(".")) + ".min.js";
             }
@@ -85,7 +85,7 @@ gulp.task("min:css", function () {
                 return null;
             }
 
-            var minifiedCssOutputFile = "";
+            var minifiedCssOutputFile = outputFileName;
             if (!outputFileName.includes(".min.")) {
                 minifiedCssOutputFile = outputFileName.substr(0, outputFileName.lastIndexOf(".")) + ".min.css";
             }
